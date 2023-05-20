@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+{% block content %}
+<form method="POST" class="buttons">
+    <h3>Enter chat room</h3>
+    <div>
+        <span>Username: {{ session["username"] }}</span>
+    </div>
+    </div>
+    <div class="join">
+        <input type="text" placeholder="Room Code" name="code" value="{{code}}"/>
+        <button type="submit" name="join">Join a room</button>
+        <button type="submit" name="create" class="create-btn">Create a room</button> <!-- Move the "Create a room" button inside the "join" div -->
+    </div>
+</form>
+{% endblock %}
