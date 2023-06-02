@@ -9,3 +9,6 @@ In the main file app.py I have everything implimented and each route is clear an
 I need to add some more commented portions some code isnt too clear
 
 I used Scoket Io to make chat rooms where users can connect and comunicate in real time
+
+I use flask run in the therminal to run the code and then you need to create an account or login to an existing one
+After that you need to create a chaat room or join one with a code another user provides you with after they created one 
